@@ -11,7 +11,6 @@ def mps_to_kph(mps):
     return mps * 3.6
 
 if __name__ == "__main__":
-    # Test cases
     speeds_mps = [10, 25, 50, 100]
 
     print("MPS to KPH Conversion:")
