@@ -10,8 +10,6 @@ def mps_to_kph(mps):
     """
     return mps * 3.6
 
-
-# Example usage
 if __name__ == "__main__":
     # Test cases
     speeds_mps = [10, 25, 50, 100]
@@ -22,7 +20,6 @@ if __name__ == "__main__":
         kph = mps_to_kph(speed)
         print(f"{speed} m/s = {kph} km/h")
 
-    # Interactive example
     try:
         user_input = float(input("\nEnter speed in m/s: "))
         result = mps_to_kph(user_input)
